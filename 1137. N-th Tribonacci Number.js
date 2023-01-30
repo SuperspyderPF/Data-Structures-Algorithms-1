@@ -1,0 +1,1 @@
+tribonacci=n=>{x=[0,1,1];while(x.length<=n){x.push(x[x.length-1]+x[x.length-2]+x[x.length-3])};return x[n]}
